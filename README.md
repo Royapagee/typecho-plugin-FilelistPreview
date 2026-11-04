@@ -2,6 +2,11 @@
 
 在后台撰写文章、独立页面以及编辑附件时，为上传面板（`#upload-panel`）里的图片附件生成缩略图，显示在每个文件名上方，方便上传后快速确认图片内容。
 
+| 演示地址：[森罗幻想](https://blog.roysgensokyo.space/technology/583.html) |
+| --- |
+| <img width="466" height="313" alt="image" src="https://github.com/user-attachments/assets/63aeb444-4744-48e9-8aa8-353e3407ff07" /> |
+
+
 ## 功能特性
 
 - **文件名上方缩略图**：图片附件在文件名前插入固定高度的预览图，非图片文件保持原样；
@@ -17,7 +22,6 @@
 | 系统 | Typecho 1.3.0（`TypechoPlugin` 命名空间） |
 | 语言 | PHP 7.4+ |
 | 浏览器 | 现代浏览器；不支持原生懒加载时浏览器会直接加载全部缩略图 |
-| 后台 | 兼容 `gskadmin/` 与上游 `admin/` |
 
 ## 安装
 
